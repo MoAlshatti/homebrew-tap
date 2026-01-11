@@ -3,7 +3,7 @@ cask "huecli" do
   name "huecli"
   desc ""
   homepage "https://github.com/MoAlshatti/hue-bridge-TUI"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "huecli" do
 
   on_macos do
     url "https://github.com/MoAlshatti/hue-bridge-TUI/releases/download/v#{version}/huecli_#{version}_darwin_all.tar.gz"
-    sha256 "a147da76ad9891a76abcc7551e386a94b463931bc67c39de436d0ae89af398d6"
+    sha256 "dca43034961f7077211e82c32ade1547b7896f1636e23cd11687e52959b0e624"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/MoAlshatti/hue-bridge-TUI/releases/download/v#{version}/huecli_#{version}_linux_amd64.tar.gz"
-      sha256 "ff41c31160bad0e06a0ba8da6e601949c6b209b6ae4c5f361f4290d226f9c105"
+      sha256 "8dfb1f1662728de2e12cae06e2831f403864c337fcf2731b9e3b3dac21faa052"
     end
     on_arm do
       url "https://github.com/MoAlshatti/hue-bridge-TUI/releases/download/v#{version}/huecli_#{version}_linux_arm64.tar.gz"
-      sha256 "08c806710e002137a3b18ed3bea30d9786b4267cfc24c634daa5e6bc403c2952"
+      sha256 "fe076b44228d49ca162de32e458570dddcdb369f3be9301830fe111d421fea37"
     end
   end
 
